@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Danh Sách Bài Hát Yêu Thích"
+        android:textColor="#03adfc"
+        android:textSize="25dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:hint="Tên bài hát"
+        android:id="@+id/edtten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Tác giả"
+        android:id="@+id/edttacgia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/butthem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm vào danh sách"/>
+    <Button
+        android:id="@+id/butxoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xóa khỏi danh sách"/>
+    <ListView
+        android:id="@+id/dsbaihat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+</LinearLayout>
